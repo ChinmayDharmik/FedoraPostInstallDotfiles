@@ -84,7 +84,7 @@ while true; do
             scripts/optimizeBootTime.sh
             scripts/installDevTools.sh
             scripts/flutter.sh
-            scripts/nvidiaGpu.sh
+            #scripts/nvidiaGpu.sh
             scripts/update_grub.sh
             scripts/autoInstallMyApps.sh
         ;;
