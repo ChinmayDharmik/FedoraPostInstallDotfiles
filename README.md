@@ -13,12 +13,12 @@ sudo dnf install git -y
 
 ```sh
 git clone https://github.com/ChinmayDharmik/FedoraPostInstallDotfiles
-cd ./fedora-post-install-script
+cd FedoraPostInstallDotfiles/
 ```
 
 3. Run it:
 
 ```sh
-chmod u+x ./post-install.sh
-./post-install.sh
+chmod u+x ./post-install-fedora.sh 
+./post-install-fedora.sh 
 ```
