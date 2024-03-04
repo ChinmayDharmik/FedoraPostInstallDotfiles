@@ -9,11 +9,13 @@ sudo dnf install warp.rpm -y
 rm warp.rpm
 
 sudo dnf install vlc htop neofetch kitty htop bpytop -y
-flatpak install flathub com.slack.Slack -y
-flatpak install flathub md.obsidian.Obsidian -y
-flatpak install flathub com.spotify.Client -y
-flatpak install flathub com.discordapp.Discord -y
-flatpak install flathub org.qbittorrent.qBittorrent -y
-flatpak install flathub com.brave.Browser -y
+sudo flatpak install flathub com.slack.Slack -y
+sudo flatpak install flathub md.obsidian.Obsidian -y
+sudo flatpak install flathub com.spotify.Client -y
+sudo flatpak install flathub com.discordapp.Discord -y
+sudo flatpak install flathub org.qbittorrent.qBittorrent -y
+sudo flatpak install flathub com.brave.Browser -y
+sudo flatpak install flathub org.zotero.Zotero -y
+sudo flatpak install flathub com.toolstack.Folio
 
 read -rp "Press any key to continue" _
