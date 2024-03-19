@@ -34,6 +34,7 @@ OPTIONS=(
     3  "Install Dev tools"
     4  "Install flutter"
     5  "Install Nvidia drivers"
+    0  "Post Installing Nvidia Drivers"
     6  "Install Update-GRUB"
     7  "Install Prefered apps"
     8  "Run All"
@@ -52,6 +53,9 @@ while true; do
                 2>&1 >/dev/tty)
     clear
     case $CHOICE in 
+        0)
+            scripts/postNvidiaGPU.sh
+        ;;
         1) 
             scripts/base.sh
         ;;
