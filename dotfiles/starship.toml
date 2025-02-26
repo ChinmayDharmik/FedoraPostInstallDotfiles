@@ -56,7 +56,7 @@ format = "at [$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
 
-symbol = " "
+symbol = "  "
 
 format = "[$symbol$branch]($style) "
 
@@ -97,4 +97,4 @@ deleted = " "
 
 [conda]
 ignore_base = false
-format = ' [$environment](italic white) '
+format = '  [$environment](italic white) '
